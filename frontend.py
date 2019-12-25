@@ -21,7 +21,6 @@ def get_selected_row(event):
 
 
 
-
 def view_command():
     list1.delete(0,END)
     for row in backend.view():
